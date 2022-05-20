@@ -1,0 +1,17 @@
+The purpose of this model was to identify whether there was an algorithm to predict whether or not applcations would be succesful 
+when they apply for the specific non-profit program.
+
+What variable(s) are considered the target(s) for your model?
+
+The Is_successful part is what we are targeting because we want that variable to be successful.
+
+What variable(s) are considered to be the features for your model?
+
+The Variables that are considered to be features were APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGAINIZATION, STATUS and we dropped both ein and name
+
+Were you able to achieve the target model performance?
+
+We were able to build a neural network classification model that can analyze loan applicant features and determine the success of whether a loan should be given out.
+While we didnt get the 75% accuracy predicted we were very close to getting the 74% needed in order to be successfully.
+
+Some other models that could be used are the random forest clasiffier model. Using that we could have seen some closer to accurate results depending on the clusters built if that model was ran.
